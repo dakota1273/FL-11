@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+	width: 100%;
+	min-width: 900px;
+	font-family: 'Open Sans',sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 {
+	min-height: 700px;
+	padding-top: 300px;
+	background: url(../img/sample2.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+.section1_item {
+	font-size: 2.1em;
+}
+
+.header_logo {
+	color: #fff;
+	margin-top: 35px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.header_title{
+	margin-left: 30px;
+}
+.header_nav {
+ 	color: #fff;
+ 	font-size: 15px;
+ 	padding-top: 35px;
+}
+.header_nav a{
+	color: #fff;
+	margin: 0 25px 0 25px;
+}
+.content_title {
+	margin-top: 60px;
+	font-weight: 400;
+	font-size: 3.3vw;
+	letter-spacing: 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.content_description {
+	color: #fff;
+	margin-top: 25px;
+}
+
+.content_nav {
+	margin: 270px auto 0;
+	max-width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content_nav-link {
+	text-decoration: none;
+	padding: 15px 60px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.picture-block {
+	display: flex;
+	padding: 20px;
+}
+.picture-block_item {
+    height: 300px;
+    width: 25%;
+    position: relative;
+    margin: 0 0 0 15px;
+	overflow: hidden;
+}
+
+.picture-block_item:first-of-type {
+	margin: 0;
+}
+
+.picture-block_img {
+	height: 100%;
+	width: auto;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.content_triangle {
+	width: 100%;
+	height: 250px;
+	background:linear-gradient(to top right, #F3F3F3 50%, black 0%);
+}
+.white_triangle {
+	padding-left: 30px;
+}
+
+.content_wrap {
+	height: 125px;
+}
+.section2 {
+	background-color: #F3F3F3;
+	padding: 0 30px 30px 30px;
+}
+.section2_title {
+	text-align: center;
+	font-weight: 500;
+}
+.content_p {
+	text-align: left;
+	max-width: 50%;
+	display: inline-block;
+	margin: 0 30px 0 30px;
+}
+.content_triangle h2 {
+	color: blue;
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.content_block {
+	display: flex;
+}
+
+.align-left2 p{
+	text-align: center;
+}
+.align-right2 p{
+	text-align: center;
+}
+.content_column {
+	width: 50%;
+	position: relative;
+}
+
+.content_btn {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	border: 2px solid #fff;
+	padding: 10px 20px;
+	background-color: rgba(0, 0, 0, 0.35);
+	color: #fff;
+}
+
+.content_link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	background: #1B7C7E;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: 15px;
+	width: calc(100% - 30px);
+	color: #fff;
+	font-weight: bold; 
+	background-color: rgba(9, 119, 116, 0.67);
+}
+.news_btn {
+	height: 45px;
+	width: 300px;
+	align-items: center;
+	justify-content: center;
+	background-color: #1B7C7E;
+	display: flex;
+	margin: 30px auto;
+	color: #fff;
+}
+
+.content_date {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+}
+.content_country {
+	font-weight: bold;
+}
+.content_img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.content_block {
+	display: flex;
+	padding-top: 20px;
+}
+.content_text{
+	width: 50%;
+}
+.content_text p {
+	margin-bottom: 10px;
+}
+
+.bottom_section {
+	background-color: #F3F3F3;
+	padding-bottom: 80px;
+}
+.bottom_section-title {
+	padding: 20px 40px 20px 30px;
+}
+.bottom_section-form {
+	display: flex;
+	float: right;
+}
+.bottom_section-form p {
+	font-size: 24px;
+	padding-right: 20px;
+}
+.subscribe_form {
+	display: flex;
+}
+.subscribe_form input {
+    margin-right: 10px;	
+   background-color: #F3F3F3;
+	border: solid 1px black;
+	width: 70%;
+}
+.subscribe_form input::placeholder {
+	color: #000000;
+	padding-left: 10px;
+}
+.subscribe_form button{
+	display: inline-block;
+    height: 35px;
+	width: 100px;
+	color: #fff;
+	background-color: #097774;
+	border: none;
+	font-weight: bold;
+	width: 40%;
+	margin-right: 25px;
+}
+.bold {
+	font-weight: bold;
+}
+
+.footer {
+	padding: 20px 0;
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.epam_logo span{
+	color: #9E9E9E;
+}
+.footer_nav a {
+	color: #000000;
+	padding-left: 19px;
+}
